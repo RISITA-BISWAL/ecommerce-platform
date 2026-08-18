@@ -1,6 +1,10 @@
 # Agentic E-Commerce Data Engineering Platform
 
-A modular, end-to-end data engineering platform that demonstrates the full lifecycle of relational e-commerce data — from synthetic generation through analytics, warehousing, and AI-assisted querying. Built with Python, SQLite, PySpark, native DAG orchestration, and read-only SQL guardrails.
+An end-to-end data engineering platform demonstrating the full lifecycle of relational e-commerce data — from synthetic generation through analytics, warehousing, and AI-assisted querying.
+
+**Built with:** Python 3.13 · SQLite · PySpark 3.5 · Pandas · NumPy · PyTest · Java/OpenJDK 21
+
+**Test Status:** 90 tests passing (82 standard + 8 PySpark)
 
 ---
 
@@ -25,15 +29,17 @@ A modular, end-to-end data engineering platform that demonstrates the full lifec
 1. [Architecture & Data Flow](#architecture--data-flow)
 2. [Technology Stack](#technology-stack)
 3. [Milestones (1–11)](#milestones-111)
-4. [Agentic Assistant & Read-Only Safety](#agentic-assistant--read-only-safety)
-5. [CDC Clarification](#cdc-clarification)
+4. [Quick Start](#quick-start)
+5. [CLI Commands](#cli-commands)
 6. [Data Warehouse & Star Schema](#data-warehouse--star-schema)
-7. [PySpark Processing](#pyspark-processing)
-8. [Quick Start](#quick-start)
-9. [CLI Commands](#cli-commands)
-10. [Testing](#testing)
-11. [Why This Project Matters](#why-this-project-matters)
-12. [Limitations & Scope](#limitations--scope)
+7. [Agentic Assistant & Read-Only Safety](#agentic-assistant--read-only-safety)
+8. [CDC Clarification](#cdc-clarification)
+9. [Security & Safety](#security--safety)
+10. [PySpark Processing](#pyspark-processing)
+11. [Testing](#testing)
+12. [Why This Project Matters](#why-this-project-matters)
+13. [Limitations & Scope](#limitations--scope)
+14. [Project Structure](#project-structure)
 
 ---
 
@@ -100,95 +106,32 @@ flowchart TD
 | Orchestration | Native DAG engine | custom |
 | Agent engine | Intent router + SQL guardrails | custom |
 
+**Dual Environment Architecture:**
+
+| Environment | Python | Purpose |
+|-------------|--------|---------|
+| `.venv` | 3.13.5 | Core pipelines, SQLite, analytics, orchestration, agent |
+| `.venv_spark` | 3.12.10 | PySpark processing, Parquet exports |
+
+The separate PySpark environment exists because PySpark 3.5.4 requires a C-API-compatible Python build. Python 3.13 has C-API changes that break PySpark's `py4j` bridge.
+
 ---
 
 ## Milestones (1–11)
 
-| Milestone | Capability | Main Implementation |
-|-----------|-----------|---------------------|
-| 1 | Synthetic data generation | `src/generator.py` — `EcommerceDataGenerator` |
-| 2 | Data quality auditing | `src/validator.py` — `DataQualityAuditor` |
-| 3 | ETL transformation | `src/transformer.py` — `EcommerceTransformer` |
-| 4 | SQLite storage & indexing | `src/database.py` — `EcommerceDatabase` |
-| 5 | SQL analytics engine | `src/analytics.py` — `EcommerceAnalytics` |
-| 6 | Native DAG orchestration | `src/orchestrator.py` — `NativeDAGOrchestrator` |
-| 7 | PySpark & Parquet engine | `src/spark_processor.py` — `EcommerceSparkProcessor` |
-| 8 | Unified platform CLI | `src/cli.py` — `EcommercePlatformCLI` |
-| 9 | Incremental CDC & observability | `src/incremental.py`, `src/observability.py` |
-| 10 | Star Schema data warehouse | `src/warehouse.py` — `EcommerceDataWarehouse` |
-| 11 | Agentic data engineering assistant | `src/agent.py` — `DataPlatformAgent` |
-
----
-
-## Agentic Assistant & Read-Only Safety
-
-The Agentic Data Engineering Assistant (`src/agent.py`) provides a natural-language interface to all platform capabilities.
-
-**How it works:**
-
-1. **Local deterministic intent router** — maps natural-language prompts to platform tool functions using pattern matching. No external LLM API is required.
-2. **Tool registry** — supports Analytics, Data Warehouse, Quality Auditor, Observability, CDC, and Spark tools.
-3. **SQLGuardrailEngine** — validates every SQL query before execution:
-   - Enforces `SQLite URI mode=ro` (read-only connection)
-   - Blocks DDL/DML: `DROP`, `DELETE`, `UPDATE`, `INSERT`, `ALTER`, `CREATE`, `TRUNCATE`
-   - Requires `SELECT` or `WITH` as the first statement
-   - Appends `LIMIT` if missing
-4. **Result synthesizer** — formats DataFrames and metadata into Markdown tables and human-readable explanations.
-
-```powershell
-# Single query
-.\.venv\Scripts\python.exe run_platform.py --agent "What is the total revenue by category?"
-
-# Interactive session
-.\.venv\Scripts\python.exe run_platform.py --agent-interactive
-```
-
----
-
-## CDC Clarification
-
-The CDC engine (`src/incremental.py`) implements **simulated local batch/incremental CDC** — not real-time streaming.
-
-- **Classification**: Each incoming record is classified as `INSERT`, `UPDATE`, or `NO_CHANGE` based on primary key matching.
-- **UPSERT**: Uses SQLite `ON CONFLICT DO UPDATE` for idempotent merges.
-- **Scope**: Processes batch delta records against the existing SQLite database. No Kafka, Debezium, or database log tailing is involved.
-
----
-
-## Data Warehouse & Star Schema
-
-The warehouse engine (`src/warehouse.py`) builds a Star Schema in `data/ecommerce_dw.db`:
-
-**Dimensions:**
-| Table | Key | Description |
-|-------|-----|-------------|
-| `dim_customer` | `customer_key` (surrogate) | Customer attributes with encoded signup channels |
-| `dim_product` | `product_key` (surrogate) | Product attributes with encoded categories |
-| `dim_date` | `date_key` (surrogate) | Calendar attributes: year, month, day, weekday |
-
-**Fact Table:**
-| Table | Key | Measures |
-|-------|-----|----------|
-| `fact_sales` | `customer_key`, `product_key`, `date_key` | `quantity`, `unit_price`, `total_price` |
-
-**OLAP capabilities:** Category revenue drill-downs, weekend vs. weekday performance analysis, monthly trend aggregation.
-
----
-
-## PySpark Processing
-
-A separate Python 3.12.10 environment (`.venv_spark`) exists because PySpark 3.5.4 requires a C-API-compatible Python build. The primary environment uses Python 3.13.5, which has C-API changes that break PySpark's `py4j` bridge.
-
-**What PySpark processes:**
-- Loads raw CSVs (customers, orders, products) with explicit schemas
-- Filters completed orders
-- Computes product sales summaries and category revenue aggregations
-- Exports results as Parquet to `data/spark_processed/`
-
-```powershell
-# Run PySpark processing
-.\.venv_spark\Scripts\python.exe run_spark.py
-```
+| # | Milestone | Capability | Main Implementation |
+|---|-----------|-----------|---------------------|
+| 1 | Synthetic Data Generation | Produces 5 relational entities with referential integrity | `src/generator.py` — `EcommerceDataGenerator` |
+| 2 | Data Quality Audit | Null%, schema, and referential integrity validation | `src/validator.py` — `DataQualityAuditor` |
+| 3 | ETL Transformation | Cleans, normalizes, and standardizes raw data | `src/transformer.py` — `EcommerceTransformer` |
+| 4 | SQLite Storage | Indexed schema creation and CSV ingestion | `src/database.py` — `EcommerceDatabase` |
+| 5 | SQL Analytics | Executive KPIs, revenue reconciliation, trend analysis | `src/analytics.py` — `EcommerceAnalytics` |
+| 6 | DAG Orchestration | Topological sort, retries, status persistence | `src/orchestrator.py` — `NativeDAGOrchestrator` |
+| 7 | PySpark Processing | Distributed aggregation, Parquet data lake output | `src/spark_processor.py` — `EcommerceSparkProcessor` |
+| 8 | Unified CLI | Single entry point for all platform capabilities | `src/cli.py` — `EcommercePlatformCLI` |
+| 9 | CDC & Observability | Batch CDC merge, lineage, telemetry, drift detection | `src/incremental.py`, `src/observability.py` |
+| 10 | Data Warehouse | Star Schema with surrogate keys and OLAP queries | `src/warehouse.py` — `EcommerceDataWarehouse` |
+| 11 | Agentic Assistant | Natural-language interface with SQL guardrails | `src/agent.py` — `DataPlatformAgent` |
 
 ---
 
@@ -240,6 +183,97 @@ The unified CLI (`run_platform.py`) supports the following flags:
 
 ---
 
+## Data Warehouse & Star Schema
+
+The warehouse engine (`src/warehouse.py`) builds a Star Schema in `data/ecommerce_dw.db`:
+
+**Dimensions:**
+
+| Table | Key | Description |
+|-------|-----|-------------|
+| `dim_customer` | `customer_key` (surrogate) | Customer attributes with encoded signup channels |
+| `dim_product` | `product_key` (surrogate) | Product attributes with encoded categories |
+| `dim_date` | `date_key` (surrogate) | Calendar attributes: year, month, day, weekday |
+
+**Fact Table:**
+
+| Table | Key | Measures |
+|-------|-----|----------|
+| `fact_sales` | `customer_key`, `product_key`, `date_key` | `quantity`, `unit_price`, `total_price` |
+
+**OLAP capabilities:** Category revenue drill-downs, weekend vs. weekday performance analysis, monthly trend aggregation.
+
+---
+
+## Agentic Assistant & Read-Only Safety
+
+The Agentic Data Engineering Assistant (`src/agent.py`) provides a natural-language interface to all platform capabilities.
+
+**How it works:**
+
+1. **Local deterministic intent router** — maps natural-language prompts to platform tool functions using pattern matching. No external LLM API is required.
+2. **Tool registry** — supports Analytics, Data Warehouse, Quality Auditor, Observability, CDC, and Spark tools.
+3. **SQLGuardrailEngine** — validates every SQL query before execution:
+   - Enforces `SQLite URI mode=ro` (read-only connection)
+   - Blocks DDL/DML: `DROP`, `DELETE`, `UPDATE`, `INSERT`, `ALTER`, `CREATE`, `TRUNCATE`
+   - Requires `SELECT` or `WITH` as the first statement
+   - Rejects stacked/multiple statements
+   - Appends `LIMIT` if missing
+4. **Result synthesizer** — formats DataFrames and metadata into Markdown tables and human-readable explanations.
+
+```powershell
+# Single query
+.\.venv\Scripts\python.exe run_platform.py --agent "What is the total revenue by category?"
+
+# Interactive session
+.\.venv\Scripts\python.exe run_platform.py --agent-interactive
+```
+
+---
+
+## CDC Clarification
+
+The CDC engine (`src/incremental.py`) implements **simulated local batch/incremental CDC** — not real-time streaming.
+
+- **Classification**: Each incoming record is classified as `INSERT`, `UPDATE`, or `NO_CHANGE` based on primary key matching.
+- **UPSERT**: Uses SQLite `ON CONFLICT DO UPDATE` for idempotent merges.
+- **Scope**: Processes batch delta records against the existing SQLite database. No Kafka, Debezium, or database log tailing is involved.
+
+---
+
+## Security & Safety
+
+The platform implements several security measures:
+
+| Measure | Implementation |
+|---------|---------------|
+| **Read-only SQL execution** | SQLite URI `mode=ro` prevents database mutations |
+| **Mutation keyword rejection** | `DROP`, `DELETE`, `UPDATE`, `INSERT`, `ALTER`, `CREATE`, `TRUNCATE` are blocked |
+| **Stacked-query rejection** | Multiple SQL statements in a single input are rejected |
+| **LIMIT enforcement** | Queries without `LIMIT` get one appended automatically |
+| **No secrets committed** | `.env`, credentials, API keys, and private keys are excluded by `.gitignore` |
+| **Generated databases ignored** | `data/ecommerce.db` and `data/ecommerce_dw.db` are Git-ignored |
+| **Virtual environments excluded** | `.venv/` and `.venv_spark/` are Git-ignored |
+
+---
+
+## PySpark Processing
+
+A separate Python 3.12.10 environment (`.venv_spark`) exists because PySpark 3.5.4 requires a C-API-compatible Python build. The primary environment uses Python 3.13.5, which has C-API changes that break PySpark's `py4j` bridge.
+
+**What PySpark processes:**
+- Loads raw CSVs (customers, orders, products) with explicit schemas
+- Filters completed orders
+- Computes product sales summaries and category revenue aggregations
+- Exports results as Parquet to `data/spark_processed/`
+
+```powershell
+# Run PySpark processing
+.\.venv_spark\Scripts\python.exe run_spark.py
+```
+
+---
+
 ## Testing
 
 | Suite | Environment | Tests |
@@ -274,6 +308,7 @@ This platform demonstrates competencies across the full data engineering lifecyc
 | AI-assisted access | Natural-language agent with deterministic intent routing |
 | Security | Read-only SQL guardrails with `mode=ro` enforcement |
 | Testing | 90 tests across two isolated environments |
+| Git/GitHub | Professional repository structure, documentation, CI/CD readiness |
 
 ---
 
