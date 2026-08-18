@@ -1,0 +1,79 @@
+# GitHub Actions CI Workflow
+# Runs test suites on push to main and pull requests targeting main.
+# Two separate jobs: standard tests (Python 3.13) and PySpark tests (Python 3.12).
+
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  # ============================================================
+  # Job 1: Standard Test Suite
+  # Runs all tests except PySpark using Python 3.13
+  # ============================================================
+  standard-tests:
+    name: Standard Tests (Python 3.13)
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checkout the repository
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Set up Python 3.13
+      - name: Set up Python 3.13
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      # Install dependencies from requirements.txt
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pytest pandas numpy
+
+      # Run the standard test suite (excludes test_spark.py)
+      - name: Run standard tests
+        run: python -m pytest --ignore=tests/test_spark.py -v
+
+  # ============================================================
+  # Job 2: PySpark Test Suite
+  # Runs PySpark-specific tests using Python 3.12 + Java 21
+  # ============================================================
+  pyspark-tests:
+    name: PySpark Tests (Python 3.12)
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checkout the repository
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Set up Java/OpenJDK 21 (required by PySpark)
+      - name: Set up Java 21
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "21"
+
+      # Set up Python 3.12 for PySpark compatibility
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # Install PySpark dependencies
+      - name: Install PySpark dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pyspark==3.5.4 pandas pyarrow pytest
+
+      # Run only the PySpark test suite
+      - name: Run PySpark tests
+        run: python -m pytest tests/test_spark.py -v
+        env:
+          JAVA_HOME: ${{ env.JAVA_HOME }}
