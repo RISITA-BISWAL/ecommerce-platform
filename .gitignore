@@ -1,0 +1,35 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+.venv/
+.venv_spark/
+venv/
+env/
+
+# Testing and Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local Database & Temporary Spark Test Outputs
+data/ecommerce.db
+data/ecommerce_dw.db
+
+# Generated Outputs
+data/processed/
+data/spark_processed/
+data/hadoop/
+
+# OS & IDE Files
+.DS_Store
+Thumbs.db
+.idea/
+*.swp
+*.swo
+
+# Temporary Files & Logs
+*.log
+scratch/

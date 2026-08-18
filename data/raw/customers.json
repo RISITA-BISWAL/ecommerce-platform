@@ -1,0 +1,212 @@
+[
+  {
+    "customer_id": "CUST-0001",
+    "name": "Alex Jones",
+    "email": "alex.jones1@example.com",
+    "created_at": "2025-09-28 20:03:10",
+    "signup_channel": "Organic Search"
+  },
+  {
+    "customer_id": "CUST-0002",
+    "name": "Sam Johnson",
+    "email": "sam.johnson2@example.com",
+    "created_at": "2025-09-03 20:03:10",
+    "signup_channel": "Organic Search"
+  },
+  {
+    "customer_id": "CUST-0003",
+    "name": "Casey Rodriguez",
+    "email": "casey.rodriguez3@example.com",
+    "created_at": "2026-02-01 20:03:10",
+    "signup_channel": "Social Media"
+  },
+  {
+    "customer_id": "CUST-0004",
+    "name": "Alex Williams",
+    "email": "alex.williams4@example.com",
+    "created_at": "2025-10-23 20:03:10",
+    "signup_channel": "Social Media"
+  },
+  {
+    "customer_id": "CUST-0005",
+    "name": "Casey Garcia",
+    "email": "casey.garcia5@example.com",
+    "created_at": "2025-12-18 20:03:10",
+    "signup_channel": "Mobile App"
+  },
+  {
+    "customer_id": "CUST-0006",
+    "name": "Alex Miller",
+    "email": "alex.miller6@example.com",
+    "created_at": "2025-09-28 20:03:10",
+    "signup_channel": "Referral"
+  },
+  {
+    "customer_id": "CUST-0007",
+    "name": "Pat Johnson",
+    "email": "pat.johnson7@example.com",
+    "created_at": "2025-08-18 20:03:10",
+    "signup_channel": "Social Media"
+  },
+  {
+    "customer_id": "CUST-0008",
+    "name": "Riley Johnson",
+    "email": "riley.johnson8@example.com",
+    "created_at": "2025-09-06 20:03:10",
+    "signup_channel": "Web"
+  },
+  {
+    "customer_id": "CUST-0009",
+    "name": "Taylor Williams",
+    "email": "taylor.williams9@example.com",
+    "created_at": "2025-08-25 20:03:10",
+    "signup_channel": "Social Media"
+  },
+  {
+    "customer_id": "CUST-0010",
+    "name": "Pat Martinez",
+    "email": "pat.martinez10@example.com",
+    "created_at": "2026-04-16 20:03:10",
+    "signup_channel": "Social Media"
+  },
+  {
+    "customer_id": "CUST-0011",
+    "name": "Riley Smith",
+    "email": "riley.smith11@example.com",
+    "created_at": "2026-01-18 20:03:10",
+    "signup_channel": "Social Media"
+  },
+  {
+    "customer_id": "CUST-0012",
+    "name": "Casey Davis",
+    "email": "casey.davis12@example.com",
+    "created_at": "2025-11-28 20:03:10",
+    "signup_channel": "Referral"
+  },
+  {
+    "customer_id": "CUST-0013",
+    "name": "Casey Martinez",
+    "email": "casey.martinez13@example.com",
+    "created_at": "2026-01-23 20:03:10",
+    "signup_channel": "Web"
+  },
+  {
+    "customer_id": "CUST-0014",
+    "name": "Pat Rodriguez",
+    "email": "pat.rodriguez14@example.com",
+    "created_at": "2026-03-25 20:03:10",
+    "signup_channel": "Referral"
+  },
+  {
+    "customer_id": "CUST-0015",
+    "name": "Avery Davis",
+    "email": "avery.davis15@example.com",
+    "created_at": "2026-05-08 20:03:10",
+    "signup_channel": "Organic Search"
+  },
+  {
+    "customer_id": "CUST-0016",
+    "name": "Chris Rodriguez",
+    "email": "chris.rodriguez16@example.com",
+    "created_at": "2025-08-31 20:03:10",
+    "signup_channel": "Mobile App"
+  },
+  {
+    "customer_id": "CUST-0017",
+    "name": "Jordan Davis",
+    "email": "jordan.davis17@example.com",
+    "created_at": "2025-12-27 20:03:10",
+    "signup_channel": "Mobile App"
+  },
+  {
+    "customer_id": "CUST-0018",
+    "name": "Chris Garcia",
+    "email": "chris.garcia18@example.com",
+    "created_at": "2026-05-25 20:03:10",
+    "signup_channel": "Organic Search"
+  },
+  {
+    "customer_id": "CUST-0019",
+    "name": "Jordan Davis",
+    "email": "jordan.davis19@example.com",
+    "created_at": "2026-03-01 20:03:10",
+    "signup_channel": "Referral"
+  },
+  {
+    "customer_id": "CUST-0020",
+    "name": "Chris Smith",
+    "email": "chris.smith20@example.com",
+    "created_at": "2025-11-19 20:03:10",
+    "signup_channel": "Referral"
+  },
+  {
+    "customer_id": "CUST-0021",
+    "name": "Jordan Garcia",
+    "email": "jordan.garcia21@example.com",
+    "created_at": "2025-08-21 20:03:10",
+    "signup_channel": "Social Media"
+  },
+  {
+    "customer_id": "CUST-0022",
+    "name": "Morgan Miller",
+    "email": "morgan.miller22@example.com",
+    "created_at": "2026-05-14 20:03:10",
+    "signup_channel": "Referral"
+  },
+  {
+    "customer_id": "CUST-0023",
+    "name": "Alex Jones",
+    "email": "alex.jones23@example.com",
+    "created_at": "2026-04-25 20:03:10",
+    "signup_channel": "Mobile App"
+  },
+  {
+    "customer_id": "CUST-0024",
+    "name": "Casey Davis",
+    "email": "casey.davis24@example.com",
+    "created_at": "2025-11-13 20:03:10",
+    "signup_channel": "Mobile App"
+  },
+  {
+    "customer_id": "CUST-0025",
+    "name": "Casey Davis",
+    "email": "casey.davis25@example.com",
+    "created_at": "2026-02-24 20:03:10",
+    "signup_channel": "Organic Search"
+  },
+  {
+    "customer_id": "CUST-0026",
+    "name": "Alex Smith",
+    "email": "alex.smith26@example.com",
+    "created_at": "2025-10-22 20:03:10",
+    "signup_channel": "Organic Search"
+  },
+  {
+    "customer_id": "CUST-0027",
+    "name": "Morgan Smith",
+    "email": "morgan.smith27@example.com",
+    "created_at": "2025-12-24 20:03:10",
+    "signup_channel": "Social Media"
+  },
+  {
+    "customer_id": "CUST-0028",
+    "name": "Sam Miller",
+    "email": "sam.miller28@example.com",
+    "created_at": "2026-03-18 20:03:10",
+    "signup_channel": "Web"
+  },
+  {
+    "customer_id": "CUST-0029",
+    "name": "Jordan Martinez",
+    "email": "jordan.martinez29@example.com",
+    "created_at": "2025-09-16 20:03:10",
+    "signup_channel": "Referral"
+  },
+  {
+    "customer_id": "CUST-0030",
+    "name": "Chris Johnson",
+    "email": "chris.johnson30@example.com",
+    "created_at": "2025-09-26 20:03:10",
+    "signup_channel": "Organic Search"
+  }
+]

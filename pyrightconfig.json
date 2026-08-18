@@ -1,0 +1,8 @@
+{
+  "venvPath": ".",
+  "venv": ".venv_spark",
+  "extraPaths": [
+    ".",
+    ".venv_spark/Lib/site-packages"
+  ]
+}

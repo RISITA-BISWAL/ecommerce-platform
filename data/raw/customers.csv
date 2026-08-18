@@ -1,0 +1,101 @@
+customer_id,name,email,created_at,signup_channel
+CUST-0001,Morgan Smith,morgan.smith1@example.com,2026-01-05 09:38:32,Mobile App
+CUST-0002,Riley Jones,riley.jones2@example.com,2025-10-09 09:38:32,Referral
+CUST-0003,Taylor Jackson,taylor.jackson3@example.com,2026-03-22 09:38:32,Web
+CUST-0004,Alex Williams,alex.williams4@example.com,2025-12-07 09:38:32,Mobile App
+CUST-0005,Emerson Martin,emerson.martin5@example.com,2025-08-31 09:38:32,Referral
+CUST-0006,Pat Moore,pat.moore6@example.com,2026-03-20 09:38:32,Mobile App
+CUST-0007,Rowan Jackson,rowan.jackson7@example.com,2026-01-07 09:38:32,Web
+CUST-0008,Chris Wilson,chris.wilson8@example.com,2026-02-08 09:38:32,Social Media
+CUST-0009,Sam Miller,sam.miller9@example.com,2026-02-06 09:38:32,Web
+CUST-0010,Taylor Gonzalez,taylor.gonzalez10@example.com,2025-10-06 09:38:32,Social Media
+CUST-0011,Dakota Martin,dakota.martin11@example.com,2025-12-31 09:38:32,Web
+CUST-0012,Rowan Moore,rowan.moore12@example.com,2025-10-20 09:38:32,Organic Search
+CUST-0013,Taylor Moore,taylor.moore13@example.com,2026-01-15 09:38:32,Referral
+CUST-0014,Dakota Jackson,dakota.jackson14@example.com,2025-11-24 09:38:32,Web
+CUST-0015,Jordan Davis,jordan.davis15@example.com,2026-01-13 09:38:32,Web
+CUST-0016,Riley Brown,riley.brown16@example.com,2026-02-28 09:38:32,Social Media
+CUST-0017,Rowan Lopez,rowan.lopez17@example.com,2025-11-09 09:38:32,Social Media
+CUST-0018,Dakota Miller,dakota.miller18@example.com,2026-01-01 09:38:32,Web
+CUST-0019,Hayden Garcia,hayden.garcia19@example.com,2026-05-18 09:38:32,Mobile App
+CUST-0020,Chris Anderson,chris.anderson20@example.com,2026-02-28 09:38:32,Social Media
+CUST-0021,Peyton Davis,peyton.davis21@example.com,2026-01-31 09:38:32,Web
+CUST-0022,Riley Johnson,riley.johnson22@example.com,2026-01-26 09:38:32,Organic Search
+CUST-0023,Casey Williams,casey.williams23@example.com,2025-12-04 09:38:32,Referral
+CUST-0024,Logan Miller,logan.miller24@example.com,2026-04-30 09:38:32,Organic Search
+CUST-0025,Rowan Jones,rowan.jones25@example.com,2025-12-31 09:38:32,Mobile App
+CUST-0026,Riley Moore,riley.moore26@example.com,2026-05-20 09:38:32,Social Media
+CUST-0027,Quinn Wilson,quinn.wilson27@example.com,2026-06-12 09:38:32,Organic Search
+CUST-0028,Dakota Davis,dakota.davis28@example.com,2025-10-27 09:38:32,Referral
+CUST-0029,Finley Williams,finley.williams29@example.com,2025-09-11 09:38:32,Web
+CUST-0030,Sam Garcia,sam.garcia30@example.com,2026-03-22 09:38:32,Referral
+CUST-0031,Taylor Gonzalez,taylor.gonzalez31@example.com,2026-03-01 09:38:32,Referral
+CUST-0032,Rowan Taylor,rowan.taylor32@example.com,2025-12-24 09:38:32,Referral
+CUST-0033,Alex Brown,alex.brown33@example.com,2026-05-19 09:38:32,Social Media
+CUST-0034,Logan Brown,logan.brown34@example.com,2026-01-15 09:38:32,Organic Search
+CUST-0035,Chris Anderson,chris.anderson35@example.com,2025-08-19 09:38:32,Social Media
+CUST-0036,Emerson Garcia,emerson.garcia36@example.com,2026-05-04 09:38:32,Web
+CUST-0037,Avery Taylor,avery.taylor37@example.com,2025-11-27 09:38:32,Mobile App
+CUST-0038,Dakota Garcia,dakota.garcia38@example.com,2026-05-21 09:38:32,Referral
+CUST-0039,Alex Martin,alex.martin39@example.com,2026-01-30 09:38:32,Organic Search
+CUST-0040,Alex Brown,alex.brown40@example.com,2026-02-19 09:38:32,Social Media
+CUST-0041,Riley Johnson,riley.johnson41@example.com,2025-12-19 09:38:32,Referral
+CUST-0042,Taylor Williams,taylor.williams42@example.com,2026-04-23 09:38:32,Web
+CUST-0043,Peyton Jones,peyton.jones43@example.com,2025-10-22 09:38:32,Organic Search
+CUST-0044,Peyton Garcia,peyton.garcia44@example.com,2025-12-31 09:38:32,Referral
+CUST-0045,Hayden Wilson,hayden.wilson45@example.com,2025-12-04 09:38:32,Referral
+CUST-0046,Pat Martinez,pat.martinez46@example.com,2026-03-10 09:38:32,Social Media
+CUST-0047,Rowan Taylor,rowan.taylor47@example.com,2026-04-06 09:38:32,Web
+CUST-0048,Riley Davis,riley.davis48@example.com,2025-09-19 09:38:32,Social Media
+CUST-0049,Alex Jackson,alex.jackson49@example.com,2026-05-28 09:38:32,Mobile App
+CUST-0050,Quinn Davis,quinn.davis50@example.com,2025-08-21 09:38:32,Web
+CUST-0051,Jordan Davis,jordan.davis51@example.com,2025-09-21 09:38:32,Web
+CUST-0052,Logan Williams,logan.williams52@example.com,2026-05-08 09:38:32,Mobile App
+CUST-0053,Casey Thomas,casey.thomas53@example.com,2025-12-05 09:38:32,Referral
+CUST-0054,Sam Jackson,sam.jackson54@example.com,2026-06-09 09:38:32,Organic Search
+CUST-0055,Riley Thomas,riley.thomas55@example.com,2026-03-14 09:38:32,Mobile App
+CUST-0056,Morgan Brown,morgan.brown56@example.com,2026-03-26 09:38:32,Social Media
+CUST-0057,Skyler Wilson,skyler.wilson57@example.com,2026-04-14 09:38:32,Web
+CUST-0058,Morgan Johnson,morgan.johnson58@example.com,2026-03-12 09:38:32,Social Media
+CUST-0059,Morgan Davis,morgan.davis59@example.com,2025-11-24 09:38:32,Mobile App
+CUST-0060,Peyton Anderson,peyton.anderson60@example.com,2025-10-28 09:38:32,Organic Search
+CUST-0061,Chris Rodriguez,chris.rodriguez61@example.com,2026-04-11 09:38:32,Mobile App
+CUST-0062,Taylor Anderson,taylor.anderson62@example.com,2026-05-26 09:38:32,Web
+CUST-0063,Jordan Moore,jordan.moore63@example.com,2025-08-25 09:38:32,Web
+CUST-0064,Riley Garcia,riley.garcia64@example.com,2026-03-14 09:38:32,Organic Search
+CUST-0065,Finley Miller,finley.miller65@example.com,2026-03-11 09:38:32,Web
+CUST-0066,Chris Gonzalez,chris.gonzalez66@example.com,2025-08-19 09:38:32,Organic Search
+CUST-0067,Casey Anderson,casey.anderson67@example.com,2026-01-11 09:38:32,Organic Search
+CUST-0068,Peyton Thomas,peyton.thomas68@example.com,2025-11-05 09:38:32,Mobile App
+CUST-0069,Avery Miller,avery.miller69@example.com,2025-09-16 09:38:32,Referral
+CUST-0070,Peyton Johnson,peyton.johnson70@example.com,2026-01-25 09:38:32,Web
+CUST-0071,Jordan Jackson,jordan.jackson71@example.com,2026-04-19 09:38:32,Referral
+CUST-0072,Emerson Garcia,emerson.garcia72@example.com,2025-09-16 09:38:32,Referral
+CUST-0073,Taylor Garcia,taylor.garcia73@example.com,2025-09-22 09:38:32,Referral
+CUST-0074,Taylor Davis,taylor.davis74@example.com,2026-03-12 09:38:32,Web
+CUST-0075,Quinn Davis,quinn.davis75@example.com,2026-06-10 09:38:32,Referral
+CUST-0076,Jordan Martin,jordan.martin76@example.com,2025-09-28 09:38:32,Organic Search
+CUST-0077,Quinn Jackson,quinn.jackson77@example.com,2026-05-12 09:38:32,Social Media
+CUST-0078,Casey Miller,casey.miller78@example.com,2026-01-25 09:38:32,Mobile App
+CUST-0079,Casey Gonzalez,casey.gonzalez79@example.com,2025-10-24 09:38:32,Social Media
+CUST-0080,Rowan Hernandez,rowan.hernandez80@example.com,2025-09-24 09:38:32,Web
+CUST-0081,Rowan Martin,rowan.martin81@example.com,2026-06-02 09:38:32,Web
+CUST-0082,Taylor Moore,taylor.moore82@example.com,2025-12-05 09:38:32,Referral
+CUST-0083,Casey Jones,casey.jones83@example.com,2026-02-12 09:38:32,Web
+CUST-0084,Riley Lopez,riley.lopez84@example.com,2026-01-10 09:38:32,Mobile App
+CUST-0085,Rowan Moore,rowan.moore85@example.com,2026-01-19 09:38:32,Referral
+CUST-0086,Emerson Smith,emerson.smith86@example.com,2026-05-28 09:38:32,Social Media
+CUST-0087,Morgan Jones,morgan.jones87@example.com,2025-12-31 09:38:32,Web
+CUST-0088,Morgan Moore,morgan.moore88@example.com,2025-11-05 09:38:32,Social Media
+CUST-0089,Avery Martin,avery.martin89@example.com,2025-12-03 09:38:32,Social Media
+CUST-0090,Pat Rodriguez,pat.rodriguez90@example.com,2026-05-03 09:38:32,Organic Search
+CUST-0091,Casey Johnson,casey.johnson91@example.com,2025-10-04 09:38:32,Organic Search
+CUST-0092,Casey Johnson,casey.johnson92@example.com,2025-08-19 09:38:32,Social Media
+CUST-0093,Sam Rodriguez,sam.rodriguez93@example.com,2025-11-08 09:38:32,Organic Search
+CUST-0094,Peyton Wilson,peyton.wilson94@example.com,2026-06-01 09:38:32,Web
+CUST-0095,Morgan Williams,morgan.williams95@example.com,2025-11-02 09:38:32,Referral
+CUST-0096,Jordan Lopez,jordan.lopez96@example.com,2026-06-12 09:38:32,Referral
+CUST-0097,Sam Wilson,sam.wilson97@example.com,2025-10-22 09:38:32,Web
+CUST-0098,Avery Lopez,avery.lopez98@example.com,2025-09-07 09:38:32,Social Media
+CUST-0099,Pat Davis,pat.davis99@example.com,2025-10-09 09:38:32,Social Media
+CUST-0100,Peyton Wilson,peyton.wilson100@example.com,2025-11-05 09:38:32,Mobile App

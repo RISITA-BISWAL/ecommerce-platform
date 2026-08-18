@@ -1,0 +1,107 @@
+[
+  {
+    "product_id": "PROD-0001",
+    "name": "Wireless Headphones",
+    "category": "Electronics",
+    "price": 79.99,
+    "stock": 12
+  },
+  {
+    "product_id": "PROD-0002",
+    "name": "Smart Watch",
+    "category": "Electronics",
+    "price": 199.99,
+    "stock": 147
+  },
+  {
+    "product_id": "PROD-0003",
+    "name": "Mechanical Keyboard",
+    "category": "Electronics",
+    "price": 119.99,
+    "stock": 106
+  },
+  {
+    "product_id": "PROD-0004",
+    "name": "USB-C Hub",
+    "category": "Electronics",
+    "price": 34.99,
+    "stock": 28
+  },
+  {
+    "product_id": "PROD-0005",
+    "name": "Denim Jacket",
+    "category": "Clothing",
+    "price": 59.99,
+    "stock": 149
+  },
+  {
+    "product_id": "PROD-0006",
+    "name": "Cotton T-Shirt",
+    "category": "Clothing",
+    "price": 19.99,
+    "stock": 187
+  },
+  {
+    "product_id": "PROD-0007",
+    "name": "Running Shoes",
+    "category": "Clothing",
+    "price": 89.99,
+    "stock": 172
+  },
+  {
+    "product_id": "PROD-0008",
+    "name": "Hoodie",
+    "category": "Clothing",
+    "price": 45.0,
+    "stock": 113
+  },
+  {
+    "product_id": "PROD-0009",
+    "name": "Coffee Maker",
+    "category": "Home & Kitchen",
+    "price": 49.99,
+    "stock": 17
+  },
+  {
+    "product_id": "PROD-0010",
+    "name": "Air Fryer",
+    "category": "Home & Kitchen",
+    "price": 89.99,
+    "stock": 92
+  },
+  {
+    "product_id": "PROD-0011",
+    "name": "Stainless Steel Water Bottle",
+    "category": "Home & Kitchen",
+    "price": 24.99,
+    "stock": 77
+  },
+  {
+    "product_id": "PROD-0012",
+    "name": "Desk Lamp",
+    "category": "Home & Kitchen",
+    "price": 29.99,
+    "stock": 130
+  },
+  {
+    "product_id": "PROD-0013",
+    "name": "Python Data Engineering Handbook",
+    "category": "Books",
+    "price": 39.99,
+    "stock": 18
+  },
+  {
+    "product_id": "PROD-0014",
+    "name": "Designing Data-Intensive Applications",
+    "category": "Books",
+    "price": 49.99,
+    "stock": 153
+  },
+  {
+    "product_id": "PROD-0015",
+    "name": "Clean Code",
+    "category": "Books",
+    "price": 35.0,
+    "stock": 95
+  }
+]

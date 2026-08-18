@@ -1,0 +1,31 @@
+product_id,name,category,price,stock
+PROD-0001,Wireless Headphones,Electronics,79.99,51
+PROD-0002,Smart Watch,Electronics,199.99,55
+PROD-0003,Mechanical Keyboard,Electronics,119.99,115
+PROD-0004,USB-C Hub,Electronics,34.99,16
+PROD-0005,Gaming Mouse,Electronics,49.99,55
+PROD-0006,Bluetooth Speaker,Electronics,59.99,198
+PROD-0007,Denim Jacket,Clothing,59.99,95
+PROD-0008,Cotton T-Shirt,Clothing,19.99,115
+PROD-0009,Running Shoes,Clothing,89.99,181
+PROD-0010,Hoodie,Clothing,45.0,198
+PROD-0011,Leather Belt,Clothing,29.99,73
+PROD-0012,Wool Socks (3-Pack),Clothing,14.99,78
+PROD-0013,Coffee Maker,Home & Kitchen,49.99,50
+PROD-0014,Air Fryer,Home & Kitchen,89.99,189
+PROD-0015,Stainless Steel Water Bottle,Home & Kitchen,24.99,37
+PROD-0016,Desk Lamp,Home & Kitchen,29.99,107
+PROD-0017,Non-stick Frying Pan,Home & Kitchen,39.99,19
+PROD-0018,Blender,Home & Kitchen,69.99,130
+PROD-0019,Python Data Engineering Handbook,Books,39.99,66
+PROD-0020,Designing Data-Intensive Applications,Books,49.99,61
+PROD-0021,Clean Code,Books,35.0,127
+PROD-0022,SQL for Data Analysis,Books,42.5,99
+PROD-0023,The Pragmatic Programmer,Books,44.99,88
+PROD-0024,Sunscreen SPF 50,Beauty & Personal Care,15.99,68
+PROD-0025,Hydrating Facial Cleanser,Beauty & Personal Care,18.5,67
+PROD-0026,Electric Toothbrush,Beauty & Personal Care,64.99,16
+PROD-0027,Shampoo & Conditioner Set,Beauty & Personal Care,22.0,178
+PROD-0028,Yoga Mat,Sports & Outdoors,25.0,59
+PROD-0029,Dumbbell Set (10 lbs),Sports & Outdoors,34.99,112
+PROD-0030,Camping Tent 4-Person,Sports & Outdoors,129.99,94

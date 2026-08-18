@@ -1,0 +1,301 @@
+review_id,customer_id,product_id,rating,review_text,review_date
+REV-00001,CUST-0025,PROD-0029,5,Exceptional quality! Exactly what I was looking for.,2026-06-09 09:38:32
+REV-00002,CUST-0051,PROD-0029,3,Average product. Meets expectations but nothing special.,2026-06-12 09:38:32
+REV-00003,CUST-0022,PROD-0009,2,Disappointed with the quality.,2026-08-01 09:38:32
+REV-00004,CUST-0020,PROD-0028,3,"Works okay, but could be improved.",2026-06-01 09:38:32
+REV-00005,CUST-0038,PROD-0014,5,Works perfectly out of the box. 5 stars!,2026-06-15 09:38:32
+REV-00006,CUST-0061,PROD-0012,4,Solid build quality and performs well.,2026-06-01 09:38:32
+REV-00007,CUST-0038,PROD-0007,2,Disappointed with the quality.,2026-08-04 09:38:32
+REV-00008,CUST-0083,PROD-0011,4,"Very satisfied overall, though shipping took an extra day.",2026-07-10 09:38:32
+REV-00009,CUST-0063,PROD-0019,4,Solid build quality and performs well.,2026-08-08 09:38:32
+REV-00010,CUST-0057,PROD-0015,3,Average product. Meets expectations but nothing special.,2026-07-08 09:38:32
+REV-00011,CUST-0022,PROD-0026,3,Decent for the price point.,2026-07-16 09:38:32
+REV-00012,CUST-0037,PROD-0025,5,Exceptional quality! Exactly what I was looking for.,2026-07-14 09:38:32
+REV-00013,CUST-0037,PROD-0015,5,Works perfectly out of the box. 5 stars!,2026-06-19 09:38:32
+REV-00014,CUST-0092,PROD-0018,3,Average product. Meets expectations but nothing special.,2026-06-18 09:38:32
+REV-00015,CUST-0021,PROD-0008,2,Smaller than expected and feels cheaply made.,2026-08-11 09:38:32
+REV-00016,CUST-0017,PROD-0015,3,Average product. Meets expectations but nothing special.,2026-06-25 09:38:32
+REV-00017,CUST-0072,PROD-0023,1,"Poor quality, would not buy again.",2026-07-13 09:38:32
+REV-00018,CUST-0019,PROD-0012,4,"Good quality product, reasonable price.",2026-08-06 09:38:32
+REV-00019,CUST-0039,PROD-0004,5,Fast shipping and amazing product. Highly recommend!,2026-08-01 09:38:32
+REV-00020,CUST-0099,PROD-0005,5,Fast shipping and amazing product. Highly recommend!,2026-06-18 09:38:32
+REV-00021,CUST-0001,PROD-0024,4,Solid build quality and performs well.,2026-07-11 09:38:32
+REV-00022,CUST-0083,PROD-0023,3,Decent for the price point.,2026-08-11 09:38:32
+REV-00023,CUST-0086,PROD-0005,5,Works perfectly out of the box. 5 stars!,2026-07-25 09:38:32
+REV-00024,CUST-0044,PROD-0023,2,Smaller than expected and feels cheaply made.,2026-06-04 09:38:32
+REV-00025,CUST-0018,PROD-0022,4,"Very satisfied overall, though shipping took an extra day.",2026-06-02 09:38:32
+REV-00026,CUST-0052,PROD-0020,5,Fast shipping and amazing product. Highly recommend!,2026-07-14 09:38:32
+REV-00027,CUST-0012,PROD-0011,2,Item arrived slightly damaged.,2026-06-23 09:38:32
+REV-00028,CUST-0075,PROD-0017,3,Decent for the price point.,2026-06-24 09:38:32
+REV-00029,CUST-0003,PROD-0003,4,"Very satisfied overall, though shipping took an extra day.",2026-06-10 09:38:32
+REV-00030,CUST-0066,PROD-0013,3,Decent for the price point.,2026-08-15 09:38:32
+REV-00031,CUST-0078,PROD-0017,5,Works perfectly out of the box. 5 stars!,2026-07-15 09:38:32
+REV-00032,CUST-0051,PROD-0005,5,Fast shipping and amazing product. Highly recommend!,2026-07-16 09:38:32
+REV-00033,CUST-0050,PROD-0012,1,"Poor quality, would not buy again.",2026-07-13 09:38:32
+REV-00034,CUST-0040,PROD-0015,5,Exceptional quality! Exactly what I was looking for.,2026-06-26 09:38:32
+REV-00035,CUST-0094,PROD-0029,4,"Very satisfied overall, though shipping took an extra day.",2026-07-25 09:38:32
+REV-00036,CUST-0037,PROD-0006,5,Fast shipping and amazing product. Highly recommend!,2026-07-22 09:38:32
+REV-00037,CUST-0018,PROD-0027,4,"Good quality product, reasonable price.",2026-06-17 09:38:32
+REV-00038,CUST-0027,PROD-0010,4,Solid build quality and performs well.,2026-07-11 09:38:32
+REV-00039,CUST-0009,PROD-0030,5,Fast shipping and amazing product. Highly recommend!,2026-06-10 09:38:32
+REV-00040,CUST-0001,PROD-0014,4,"Very satisfied overall, though shipping took an extra day.",2026-07-22 09:38:32
+REV-00041,CUST-0023,PROD-0018,4,Solid build quality and performs well.,2026-06-16 09:38:32
+REV-00042,CUST-0026,PROD-0006,5,Fast shipping and amazing product. Highly recommend!,2026-08-08 09:38:32
+REV-00043,CUST-0063,PROD-0002,5,Fast shipping and amazing product. Highly recommend!,2026-08-12 09:38:32
+REV-00044,CUST-0039,PROD-0016,4,"Very satisfied overall, though shipping took an extra day.",2026-06-27 09:38:32
+REV-00045,CUST-0004,PROD-0026,1,"Poor quality, would not buy again.",2026-07-07 09:38:32
+REV-00046,CUST-0082,PROD-0027,4,"Good quality product, reasonable price.",2026-07-05 09:38:32
+REV-00047,CUST-0054,PROD-0006,4,Solid build quality and performs well.,2026-06-30 09:38:32
+REV-00048,CUST-0004,PROD-0004,5,Fast shipping and amazing product. Highly recommend!,2026-06-07 09:38:32
+REV-00049,CUST-0077,PROD-0024,4,"Very satisfied overall, though shipping took an extra day.",2026-08-10 09:38:32
+REV-00050,CUST-0056,PROD-0028,3,"Works okay, but could be improved.",2026-07-29 09:38:32
+REV-00051,CUST-0089,PROD-0027,2,Item arrived slightly damaged.,2026-08-11 09:38:32
+REV-00052,CUST-0003,PROD-0028,3,"Works okay, but could be improved.",2026-06-06 09:38:32
+REV-00053,CUST-0019,PROD-0011,4,Solid build quality and performs well.,2026-06-16 09:38:32
+REV-00054,CUST-0046,PROD-0006,2,Smaller than expected and feels cheaply made.,2026-07-22 09:38:32
+REV-00055,CUST-0082,PROD-0030,5,Exceptional quality! Exactly what I was looking for.,2026-07-06 09:38:32
+REV-00056,CUST-0038,PROD-0017,4,"Good quality product, reasonable price.",2026-08-03 09:38:32
+REV-00057,CUST-0025,PROD-0025,4,"Good quality product, reasonable price.",2026-08-14 09:38:32
+REV-00058,CUST-0097,PROD-0006,4,"Very satisfied overall, though shipping took an extra day.",2026-07-07 09:38:32
+REV-00059,CUST-0035,PROD-0022,4,"Very satisfied overall, though shipping took an extra day.",2026-06-11 09:38:32
+REV-00060,CUST-0069,PROD-0019,4,"Good quality product, reasonable price.",2026-05-31 09:38:32
+REV-00061,CUST-0018,PROD-0017,3,Decent for the price point.,2026-07-21 09:38:32
+REV-00062,CUST-0044,PROD-0030,5,Exceptional quality! Exactly what I was looking for.,2026-06-26 09:38:32
+REV-00063,CUST-0020,PROD-0017,3,Average product. Meets expectations but nothing special.,2026-08-09 09:38:32
+REV-00064,CUST-0079,PROD-0023,5,Works perfectly out of the box. 5 stars!,2026-08-06 09:38:32
+REV-00065,CUST-0092,PROD-0018,5,Exceptional quality! Exactly what I was looking for.,2026-07-22 09:38:32
+REV-00066,CUST-0059,PROD-0030,2,Disappointed with the quality.,2026-06-01 09:38:32
+REV-00067,CUST-0062,PROD-0012,3,Decent for the price point.,2026-06-16 09:38:32
+REV-00068,CUST-0057,PROD-0029,5,Works perfectly out of the box. 5 stars!,2026-07-12 09:38:32
+REV-00069,CUST-0023,PROD-0023,3,"Works okay, but could be improved.",2026-06-14 09:38:32
+REV-00070,CUST-0029,PROD-0005,5,Exceptional quality! Exactly what I was looking for.,2026-06-28 09:38:32
+REV-00071,CUST-0040,PROD-0005,3,Average product. Meets expectations but nothing special.,2026-07-23 09:38:32
+REV-00072,CUST-0089,PROD-0025,5,Exceptional quality! Exactly what I was looking for.,2026-06-01 09:38:32
+REV-00073,CUST-0100,PROD-0016,5,Exceptional quality! Exactly what I was looking for.,2026-06-24 09:38:32
+REV-00074,CUST-0014,PROD-0002,5,Works perfectly out of the box. 5 stars!,2026-08-13 09:38:32
+REV-00075,CUST-0008,PROD-0016,2,Smaller than expected and feels cheaply made.,2026-06-04 09:38:32
+REV-00076,CUST-0009,PROD-0010,4,"Good quality product, reasonable price.",2026-06-14 09:38:32
+REV-00077,CUST-0078,PROD-0007,4,"Good quality product, reasonable price.",2026-06-22 09:38:32
+REV-00078,CUST-0086,PROD-0012,1,"Terrible experience, stopped working after two days.",2026-07-04 09:38:32
+REV-00079,CUST-0075,PROD-0012,4,Solid build quality and performs well.,2026-08-16 09:38:32
+REV-00080,CUST-0031,PROD-0017,4,"Good quality product, reasonable price.",2026-08-12 09:38:32
+REV-00081,CUST-0098,PROD-0001,4,Solid build quality and performs well.,2026-06-23 09:38:32
+REV-00082,CUST-0037,PROD-0006,5,Works perfectly out of the box. 5 stars!,2026-05-30 09:38:32
+REV-00083,CUST-0093,PROD-0004,5,Works perfectly out of the box. 5 stars!,2026-07-29 09:38:32
+REV-00084,CUST-0047,PROD-0023,4,"Very satisfied overall, though shipping took an extra day.",2026-06-12 09:38:32
+REV-00085,CUST-0024,PROD-0027,4,"Very satisfied overall, though shipping took an extra day.",2026-07-23 09:38:32
+REV-00086,CUST-0028,PROD-0017,3,Average product. Meets expectations but nothing special.,2026-07-09 09:38:32
+REV-00087,CUST-0016,PROD-0015,2,Disappointed with the quality.,2026-08-01 09:38:32
+REV-00088,CUST-0098,PROD-0012,5,Works perfectly out of the box. 5 stars!,2026-06-04 09:38:32
+REV-00089,CUST-0011,PROD-0011,4,"Very satisfied overall, though shipping took an extra day.",2026-07-05 09:38:32
+REV-00090,CUST-0059,PROD-0020,5,Works perfectly out of the box. 5 stars!,2026-07-25 09:38:32
+REV-00091,CUST-0029,PROD-0018,4,"Very satisfied overall, though shipping took an extra day.",2026-06-23 09:38:32
+REV-00092,CUST-0009,PROD-0029,5,Fast shipping and amazing product. Highly recommend!,2026-07-16 09:38:32
+REV-00093,CUST-0023,PROD-0001,5,Fast shipping and amazing product. Highly recommend!,2026-06-12 09:38:32
+REV-00094,CUST-0051,PROD-0015,4,Solid build quality and performs well.,2026-06-09 09:38:32
+REV-00095,CUST-0016,PROD-0005,4,Solid build quality and performs well.,2026-08-13 09:38:32
+REV-00096,CUST-0014,PROD-0024,5,Exceptional quality! Exactly what I was looking for.,2026-06-07 09:38:32
+REV-00097,CUST-0047,PROD-0007,3,"Works okay, but could be improved.",2026-07-20 09:38:32
+REV-00098,CUST-0016,PROD-0008,5,Works perfectly out of the box. 5 stars!,2026-08-01 09:38:32
+REV-00099,CUST-0036,PROD-0025,5,Works perfectly out of the box. 5 stars!,2026-08-13 09:38:32
+REV-00100,CUST-0035,PROD-0025,5,Works perfectly out of the box. 5 stars!,2026-07-20 09:38:32
+REV-00101,CUST-0046,PROD-0016,4,"Very satisfied overall, though shipping took an extra day.",2026-07-31 09:38:32
+REV-00102,CUST-0066,PROD-0009,2,Smaller than expected and feels cheaply made.,2026-06-12 09:38:32
+REV-00103,CUST-0016,PROD-0009,4,"Good quality product, reasonable price.",2026-08-18 09:38:32
+REV-00104,CUST-0018,PROD-0001,2,Disappointed with the quality.,2026-06-07 09:38:32
+REV-00105,CUST-0064,PROD-0022,1,"Terrible experience, stopped working after two days.",2026-07-17 09:38:32
+REV-00106,CUST-0078,PROD-0022,3,Decent for the price point.,2026-08-17 09:38:32
+REV-00107,CUST-0080,PROD-0004,5,Works perfectly out of the box. 5 stars!,2026-08-04 09:38:32
+REV-00108,CUST-0099,PROD-0016,5,Exceptional quality! Exactly what I was looking for.,2026-07-06 09:38:32
+REV-00109,CUST-0085,PROD-0016,4,"Very satisfied overall, though shipping took an extra day.",2026-08-07 09:38:32
+REV-00110,CUST-0044,PROD-0026,5,Works perfectly out of the box. 5 stars!,2026-06-01 09:38:32
+REV-00111,CUST-0098,PROD-0002,5,Exceptional quality! Exactly what I was looking for.,2026-07-18 09:38:32
+REV-00112,CUST-0058,PROD-0011,5,Fast shipping and amazing product. Highly recommend!,2026-07-27 09:38:32
+REV-00113,CUST-0005,PROD-0002,3,"Works okay, but could be improved.",2026-07-07 09:38:32
+REV-00114,CUST-0091,PROD-0006,4,"Good quality product, reasonable price.",2026-07-08 09:38:32
+REV-00115,CUST-0092,PROD-0013,4,"Good quality product, reasonable price.",2026-08-10 09:38:32
+REV-00116,CUST-0087,PROD-0016,4,Solid build quality and performs well.,2026-08-07 09:38:32
+REV-00117,CUST-0074,PROD-0016,4,"Good quality product, reasonable price.",2026-08-02 09:38:32
+REV-00118,CUST-0008,PROD-0013,3,"Works okay, but could be improved.",2026-07-17 09:38:32
+REV-00119,CUST-0079,PROD-0022,4,"Very satisfied overall, though shipping took an extra day.",2026-07-10 09:38:32
+REV-00120,CUST-0008,PROD-0001,4,"Good quality product, reasonable price.",2026-07-15 09:38:32
+REV-00121,CUST-0045,PROD-0026,5,Exceptional quality! Exactly what I was looking for.,2026-08-18 09:38:32
+REV-00122,CUST-0044,PROD-0013,2,Smaller than expected and feels cheaply made.,2026-07-14 09:38:32
+REV-00123,CUST-0053,PROD-0012,2,Disappointed with the quality.,2026-06-30 09:38:32
+REV-00124,CUST-0031,PROD-0021,3,Average product. Meets expectations but nothing special.,2026-06-07 09:38:32
+REV-00125,CUST-0040,PROD-0004,3,Average product. Meets expectations but nothing special.,2026-08-06 09:38:32
+REV-00126,CUST-0042,PROD-0002,4,"Very satisfied overall, though shipping took an extra day.",2026-08-10 09:38:32
+REV-00127,CUST-0066,PROD-0029,4,"Good quality product, reasonable price.",2026-07-29 09:38:32
+REV-00128,CUST-0076,PROD-0001,5,Fast shipping and amazing product. Highly recommend!,2026-08-11 09:38:32
+REV-00129,CUST-0050,PROD-0011,4,"Very satisfied overall, though shipping took an extra day.",2026-06-11 09:38:32
+REV-00130,CUST-0089,PROD-0022,3,Decent for the price point.,2026-08-02 09:38:32
+REV-00131,CUST-0098,PROD-0022,3,"Works okay, but could be improved.",2026-07-07 09:38:32
+REV-00132,CUST-0047,PROD-0014,3,"Works okay, but could be improved.",2026-06-08 09:38:32
+REV-00133,CUST-0069,PROD-0007,3,Average product. Meets expectations but nothing special.,2026-07-07 09:38:32
+REV-00134,CUST-0074,PROD-0013,5,Works perfectly out of the box. 5 stars!,2026-06-10 09:38:32
+REV-00135,CUST-0092,PROD-0028,4,Solid build quality and performs well.,2026-07-12 09:38:32
+REV-00136,CUST-0035,PROD-0003,4,Solid build quality and performs well.,2026-07-29 09:38:32
+REV-00137,CUST-0055,PROD-0007,3,Average product. Meets expectations but nothing special.,2026-07-07 09:38:32
+REV-00138,CUST-0065,PROD-0026,3,"Works okay, but could be improved.",2026-08-07 09:38:32
+REV-00139,CUST-0041,PROD-0007,4,"Very satisfied overall, though shipping took an extra day.",2026-08-17 09:38:32
+REV-00140,CUST-0066,PROD-0015,4,Solid build quality and performs well.,2026-06-22 09:38:32
+REV-00141,CUST-0003,PROD-0021,5,Exceptional quality! Exactly what I was looking for.,2026-08-11 09:38:32
+REV-00142,CUST-0064,PROD-0007,4,Solid build quality and performs well.,2026-07-28 09:38:32
+REV-00143,CUST-0035,PROD-0030,4,Solid build quality and performs well.,2026-07-24 09:38:32
+REV-00144,CUST-0073,PROD-0024,4,Solid build quality and performs well.,2026-06-24 09:38:32
+REV-00145,CUST-0047,PROD-0015,2,Disappointed with the quality.,2026-07-07 09:38:32
+REV-00146,CUST-0056,PROD-0014,3,Average product. Meets expectations but nothing special.,2026-06-25 09:38:32
+REV-00147,CUST-0053,PROD-0009,5,Works perfectly out of the box. 5 stars!,2026-06-19 09:38:32
+REV-00148,CUST-0033,PROD-0022,4,"Very satisfied overall, though shipping took an extra day.",2026-06-29 09:38:32
+REV-00149,CUST-0015,PROD-0005,3,Average product. Meets expectations but nothing special.,2026-07-08 09:38:32
+REV-00150,CUST-0060,PROD-0016,4,"Very satisfied overall, though shipping took an extra day.",2026-07-23 09:38:32
+REV-00151,CUST-0083,PROD-0029,1,"Terrible experience, stopped working after two days.",2026-07-03 09:38:32
+REV-00152,CUST-0018,PROD-0001,3,Decent for the price point.,2026-08-08 09:38:32
+REV-00153,CUST-0023,PROD-0021,5,Works perfectly out of the box. 5 stars!,2026-07-31 09:38:32
+REV-00154,CUST-0003,PROD-0002,5,Exceptional quality! Exactly what I was looking for.,2026-07-09 09:38:32
+REV-00155,CUST-0078,PROD-0010,5,Fast shipping and amazing product. Highly recommend!,2026-07-15 09:38:32
+REV-00156,CUST-0086,PROD-0022,5,Fast shipping and amazing product. Highly recommend!,2026-06-16 09:38:32
+REV-00157,CUST-0031,PROD-0004,4,Solid build quality and performs well.,2026-06-14 09:38:32
+REV-00158,CUST-0067,PROD-0022,5,Works perfectly out of the box. 5 stars!,2026-07-01 09:38:32
+REV-00159,CUST-0064,PROD-0029,2,Item arrived slightly damaged.,2026-06-14 09:38:32
+REV-00160,CUST-0099,PROD-0026,3,"Works okay, but could be improved.",2026-07-18 09:38:32
+REV-00161,CUST-0096,PROD-0024,3,Decent for the price point.,2026-06-26 09:38:32
+REV-00162,CUST-0019,PROD-0004,3,Decent for the price point.,2026-07-25 09:38:32
+REV-00163,CUST-0053,PROD-0009,5,Exceptional quality! Exactly what I was looking for.,2026-07-31 09:38:32
+REV-00164,CUST-0069,PROD-0012,4,"Good quality product, reasonable price.",2026-07-09 09:38:32
+REV-00165,CUST-0070,PROD-0014,4,"Good quality product, reasonable price.",2026-07-04 09:38:32
+REV-00166,CUST-0019,PROD-0012,4,"Very satisfied overall, though shipping took an extra day.",2026-07-08 09:38:32
+REV-00167,CUST-0003,PROD-0021,5,Works perfectly out of the box. 5 stars!,2026-06-03 09:38:32
+REV-00168,CUST-0095,PROD-0022,5,Exceptional quality! Exactly what I was looking for.,2026-06-29 09:38:32
+REV-00169,CUST-0033,PROD-0018,4,Solid build quality and performs well.,2026-07-15 09:38:32
+REV-00170,CUST-0088,PROD-0004,4,"Good quality product, reasonable price.",2026-07-25 09:38:32
+REV-00171,CUST-0050,PROD-0001,5,Fast shipping and amazing product. Highly recommend!,2026-07-01 09:38:32
+REV-00172,CUST-0039,PROD-0003,5,Exceptional quality! Exactly what I was looking for.,2026-07-07 09:38:32
+REV-00173,CUST-0027,PROD-0028,5,Fast shipping and amazing product. Highly recommend!,2026-08-18 09:38:32
+REV-00174,CUST-0041,PROD-0029,5,Works perfectly out of the box. 5 stars!,2026-07-21 09:38:32
+REV-00175,CUST-0005,PROD-0009,5,Fast shipping and amazing product. Highly recommend!,2026-07-29 09:38:32
+REV-00176,CUST-0095,PROD-0014,5,Fast shipping and amazing product. Highly recommend!,2026-07-23 09:38:32
+REV-00177,CUST-0013,PROD-0027,3,Decent for the price point.,2026-08-02 09:38:32
+REV-00178,CUST-0009,PROD-0012,4,Solid build quality and performs well.,2026-08-08 09:38:32
+REV-00179,CUST-0095,PROD-0011,4,"Good quality product, reasonable price.",2026-06-05 09:38:32
+REV-00180,CUST-0083,PROD-0021,3,Decent for the price point.,2026-06-16 09:38:32
+REV-00181,CUST-0001,PROD-0013,3,Decent for the price point.,2026-07-09 09:38:32
+REV-00182,CUST-0074,PROD-0003,2,Disappointed with the quality.,2026-08-04 09:38:32
+REV-00183,CUST-0092,PROD-0025,5,Exceptional quality! Exactly what I was looking for.,2026-08-14 09:38:32
+REV-00184,CUST-0088,PROD-0014,5,Fast shipping and amazing product. Highly recommend!,2026-07-26 09:38:32
+REV-00185,CUST-0062,PROD-0028,5,Fast shipping and amazing product. Highly recommend!,2026-06-21 09:38:32
+REV-00186,CUST-0088,PROD-0019,5,Fast shipping and amazing product. Highly recommend!,2026-06-24 09:38:32
+REV-00187,CUST-0011,PROD-0014,4,"Very satisfied overall, though shipping took an extra day.",2026-07-17 09:38:32
+REV-00188,CUST-0074,PROD-0008,1,"Terrible experience, stopped working after two days.",2026-08-09 09:38:32
+REV-00189,CUST-0083,PROD-0020,4,"Good quality product, reasonable price.",2026-07-28 09:38:32
+REV-00190,CUST-0026,PROD-0009,5,Exceptional quality! Exactly what I was looking for.,2026-06-05 09:38:32
+REV-00191,CUST-0052,PROD-0020,4,"Very satisfied overall, though shipping took an extra day.",2026-06-18 09:38:32
+REV-00192,CUST-0012,PROD-0012,3,"Works okay, but could be improved.",2026-06-14 09:38:32
+REV-00193,CUST-0002,PROD-0023,4,"Very satisfied overall, though shipping took an extra day.",2026-08-01 09:38:32
+REV-00194,CUST-0016,PROD-0008,5,Exceptional quality! Exactly what I was looking for.,2026-07-03 09:38:32
+REV-00195,CUST-0037,PROD-0024,4,"Good quality product, reasonable price.",2026-07-24 09:38:32
+REV-00196,CUST-0027,PROD-0020,3,Decent for the price point.,2026-06-23 09:38:32
+REV-00197,CUST-0054,PROD-0006,4,"Good quality product, reasonable price.",2026-06-02 09:38:32
+REV-00198,CUST-0038,PROD-0009,3,Decent for the price point.,2026-06-30 09:38:32
+REV-00199,CUST-0048,PROD-0019,4,"Very satisfied overall, though shipping took an extra day.",2026-06-09 09:38:32
+REV-00200,CUST-0002,PROD-0016,2,Smaller than expected and feels cheaply made.,2026-07-19 09:38:32
+REV-00201,CUST-0088,PROD-0007,5,Works perfectly out of the box. 5 stars!,2026-07-23 09:38:32
+REV-00202,CUST-0095,PROD-0020,3,Average product. Meets expectations but nothing special.,2026-08-09 09:38:32
+REV-00203,CUST-0008,PROD-0002,3,Average product. Meets expectations but nothing special.,2026-07-29 09:38:32
+REV-00204,CUST-0046,PROD-0020,5,Works perfectly out of the box. 5 stars!,2026-06-04 09:38:32
+REV-00205,CUST-0001,PROD-0009,4,"Very satisfied overall, though shipping took an extra day.",2026-07-07 09:38:32
+REV-00206,CUST-0051,PROD-0022,4,Solid build quality and performs well.,2026-06-04 09:38:32
+REV-00207,CUST-0075,PROD-0006,3,"Works okay, but could be improved.",2026-08-01 09:38:32
+REV-00208,CUST-0044,PROD-0029,4,"Good quality product, reasonable price.",2026-07-09 09:38:32
+REV-00209,CUST-0091,PROD-0017,4,"Very satisfied overall, though shipping took an extra day.",2026-06-13 09:38:32
+REV-00210,CUST-0041,PROD-0002,5,Fast shipping and amazing product. Highly recommend!,2026-07-04 09:38:32
+REV-00211,CUST-0096,PROD-0012,5,Fast shipping and amazing product. Highly recommend!,2026-07-02 09:38:32
+REV-00212,CUST-0079,PROD-0027,5,Fast shipping and amazing product. Highly recommend!,2026-08-04 09:38:32
+REV-00213,CUST-0041,PROD-0014,5,Fast shipping and amazing product. Highly recommend!,2026-07-31 09:38:32
+REV-00214,CUST-0098,PROD-0005,4,Solid build quality and performs well.,2026-07-25 09:38:32
+REV-00215,CUST-0007,PROD-0007,2,Disappointed with the quality.,2026-06-22 09:38:32
+REV-00216,CUST-0005,PROD-0016,3,"Works okay, but could be improved.",2026-07-28 09:38:32
+REV-00217,CUST-0056,PROD-0004,5,Fast shipping and amazing product. Highly recommend!,2026-06-04 09:38:32
+REV-00218,CUST-0057,PROD-0012,5,Works perfectly out of the box. 5 stars!,2026-07-31 09:38:32
+REV-00219,CUST-0059,PROD-0016,2,Item arrived slightly damaged.,2026-06-17 09:38:32
+REV-00220,CUST-0016,PROD-0012,2,Smaller than expected and feels cheaply made.,2026-06-22 09:38:32
+REV-00221,CUST-0022,PROD-0024,4,"Very satisfied overall, though shipping took an extra day.",2026-08-10 09:38:32
+REV-00222,CUST-0085,PROD-0019,3,Average product. Meets expectations but nothing special.,2026-08-05 09:38:32
+REV-00223,CUST-0099,PROD-0019,3,Average product. Meets expectations but nothing special.,2026-06-30 09:38:32
+REV-00224,CUST-0099,PROD-0016,4,"Very satisfied overall, though shipping took an extra day.",2026-06-02 09:38:32
+REV-00225,CUST-0037,PROD-0022,5,Exceptional quality! Exactly what I was looking for.,2026-07-19 09:38:32
+REV-00226,CUST-0048,PROD-0019,5,Exceptional quality! Exactly what I was looking for.,2026-07-10 09:38:32
+REV-00227,CUST-0020,PROD-0001,2,Item arrived slightly damaged.,2026-07-30 09:38:32
+REV-00228,CUST-0059,PROD-0021,5,Works perfectly out of the box. 5 stars!,2026-05-30 09:38:32
+REV-00229,CUST-0043,PROD-0002,4,"Very satisfied overall, though shipping took an extra day.",2026-07-10 09:38:32
+REV-00230,CUST-0094,PROD-0024,5,Works perfectly out of the box. 5 stars!,2026-06-15 09:38:32
+REV-00231,CUST-0028,PROD-0028,1,Did not match the description at all.,2026-07-05 09:38:32
+REV-00232,CUST-0042,PROD-0026,2,Disappointed with the quality.,2026-08-08 09:38:32
+REV-00233,CUST-0078,PROD-0013,2,Smaller than expected and feels cheaply made.,2026-06-21 09:38:32
+REV-00234,CUST-0031,PROD-0025,5,Exceptional quality! Exactly what I was looking for.,2026-06-01 09:38:32
+REV-00235,CUST-0027,PROD-0006,4,"Very satisfied overall, though shipping took an extra day.",2026-07-05 09:38:32
+REV-00236,CUST-0083,PROD-0025,5,Exceptional quality! Exactly what I was looking for.,2026-06-14 09:38:32
+REV-00237,CUST-0039,PROD-0016,5,Works perfectly out of the box. 5 stars!,2026-07-08 09:38:32
+REV-00238,CUST-0088,PROD-0020,2,Item arrived slightly damaged.,2026-06-11 09:38:32
+REV-00239,CUST-0048,PROD-0017,3,Decent for the price point.,2026-07-18 09:38:32
+REV-00240,CUST-0061,PROD-0009,4,"Very satisfied overall, though shipping took an extra day.",2026-06-10 09:38:32
+REV-00241,CUST-0097,PROD-0014,5,Works perfectly out of the box. 5 stars!,2026-06-22 09:38:32
+REV-00242,CUST-0056,PROD-0021,4,"Good quality product, reasonable price.",2026-08-03 09:38:32
+REV-00243,CUST-0044,PROD-0015,4,Solid build quality and performs well.,2026-06-18 09:38:32
+REV-00244,CUST-0064,PROD-0017,4,Solid build quality and performs well.,2026-06-09 09:38:32
+REV-00245,CUST-0038,PROD-0015,4,"Very satisfied overall, though shipping took an extra day.",2026-07-07 09:38:32
+REV-00246,CUST-0020,PROD-0005,4,"Very satisfied overall, though shipping took an extra day.",2026-06-30 09:38:32
+REV-00247,CUST-0067,PROD-0014,3,Average product. Meets expectations but nothing special.,2026-08-08 09:38:32
+REV-00248,CUST-0010,PROD-0030,1,"Terrible experience, stopped working after two days.",2026-08-03 09:38:32
+REV-00249,CUST-0055,PROD-0014,2,Item arrived slightly damaged.,2026-08-10 09:38:32
+REV-00250,CUST-0033,PROD-0012,3,Average product. Meets expectations but nothing special.,2026-08-02 09:38:32
+REV-00251,CUST-0003,PROD-0004,5,Fast shipping and amazing product. Highly recommend!,2026-06-21 09:38:32
+REV-00252,CUST-0024,PROD-0027,4,"Good quality product, reasonable price.",2026-07-22 09:38:32
+REV-00253,CUST-0091,PROD-0010,3,"Works okay, but could be improved.",2026-07-27 09:38:32
+REV-00254,CUST-0097,PROD-0022,4,"Very satisfied overall, though shipping took an extra day.",2026-07-12 09:38:32
+REV-00255,CUST-0024,PROD-0007,3,"Works okay, but could be improved.",2026-08-15 09:38:32
+REV-00256,CUST-0034,PROD-0028,4,"Very satisfied overall, though shipping took an extra day.",2026-08-06 09:38:32
+REV-00257,CUST-0003,PROD-0001,4,"Good quality product, reasonable price.",2026-06-20 09:38:32
+REV-00258,CUST-0084,PROD-0016,4,"Very satisfied overall, though shipping took an extra day.",2026-08-15 09:38:32
+REV-00259,CUST-0093,PROD-0016,3,"Works okay, but could be improved.",2026-07-15 09:38:32
+REV-00260,CUST-0089,PROD-0022,5,Works perfectly out of the box. 5 stars!,2026-07-19 09:38:32
+REV-00261,CUST-0039,PROD-0003,2,Disappointed with the quality.,2026-06-23 09:38:32
+REV-00262,CUST-0015,PROD-0027,1,"Terrible experience, stopped working after two days.",2026-06-02 09:38:32
+REV-00263,CUST-0027,PROD-0016,4,Solid build quality and performs well.,2026-06-29 09:38:32
+REV-00264,CUST-0056,PROD-0027,4,Solid build quality and performs well.,2026-06-23 09:38:32
+REV-00265,CUST-0012,PROD-0010,5,Exceptional quality! Exactly what I was looking for.,2026-07-29 09:38:32
+REV-00266,CUST-0055,PROD-0001,2,Disappointed with the quality.,2026-07-25 09:38:32
+REV-00267,CUST-0063,PROD-0016,1,"Poor quality, would not buy again.",2026-08-12 09:38:32
+REV-00268,CUST-0032,PROD-0007,3,Decent for the price point.,2026-06-05 09:38:32
+REV-00269,CUST-0043,PROD-0001,2,Item arrived slightly damaged.,2026-07-24 09:38:32
+REV-00270,CUST-0054,PROD-0028,4,Solid build quality and performs well.,2026-08-14 09:38:32
+REV-00271,CUST-0094,PROD-0018,5,Exceptional quality! Exactly what I was looking for.,2026-07-31 09:38:32
+REV-00272,CUST-0052,PROD-0016,4,Solid build quality and performs well.,2026-08-16 09:38:32
+REV-00273,CUST-0087,PROD-0029,5,Fast shipping and amazing product. Highly recommend!,2026-06-28 09:38:32
+REV-00274,CUST-0092,PROD-0002,4,"Very satisfied overall, though shipping took an extra day.",2026-08-11 09:38:32
+REV-00275,CUST-0041,PROD-0018,2,Item arrived slightly damaged.,2026-07-22 09:38:32
+REV-00276,CUST-0061,PROD-0004,4,Solid build quality and performs well.,2026-07-13 09:38:32
+REV-00277,CUST-0058,PROD-0023,4,"Good quality product, reasonable price.",2026-07-05 09:38:32
+REV-00278,CUST-0093,PROD-0007,4,"Very satisfied overall, though shipping took an extra day.",2026-06-28 09:38:32
+REV-00279,CUST-0065,PROD-0008,4,Solid build quality and performs well.,2026-07-12 09:38:32
+REV-00280,CUST-0078,PROD-0028,5,Works perfectly out of the box. 5 stars!,2026-07-28 09:38:32
+REV-00281,CUST-0017,PROD-0029,3,"Works okay, but could be improved.",2026-07-18 09:38:32
+REV-00282,CUST-0054,PROD-0027,5,Works perfectly out of the box. 5 stars!,2026-07-15 09:38:32
+REV-00283,CUST-0061,PROD-0026,5,Exceptional quality! Exactly what I was looking for.,2026-08-17 09:38:32
+REV-00284,CUST-0027,PROD-0010,4,"Good quality product, reasonable price.",2026-07-30 09:38:32
+REV-00285,CUST-0017,PROD-0006,3,"Works okay, but could be improved.",2026-07-31 09:38:32
+REV-00286,CUST-0013,PROD-0026,4,"Very satisfied overall, though shipping took an extra day.",2026-07-07 09:38:32
+REV-00287,CUST-0031,PROD-0007,4,"Good quality product, reasonable price.",2026-07-14 09:38:32
+REV-00288,CUST-0034,PROD-0012,4,"Good quality product, reasonable price.",2026-08-02 09:38:32
+REV-00289,CUST-0005,PROD-0026,2,Smaller than expected and feels cheaply made.,2026-06-13 09:38:32
+REV-00290,CUST-0080,PROD-0008,2,Disappointed with the quality.,2026-07-31 09:38:32
+REV-00291,CUST-0034,PROD-0011,5,Exceptional quality! Exactly what I was looking for.,2026-08-09 09:38:32
+REV-00292,CUST-0035,PROD-0029,3,"Works okay, but could be improved.",2026-08-03 09:38:32
+REV-00293,CUST-0078,PROD-0022,2,Disappointed with the quality.,2026-07-25 09:38:32
+REV-00294,CUST-0059,PROD-0027,5,Exceptional quality! Exactly what I was looking for.,2026-08-16 09:38:32
+REV-00295,CUST-0079,PROD-0026,5,Exceptional quality! Exactly what I was looking for.,2026-08-09 09:38:32
+REV-00296,CUST-0006,PROD-0017,2,Item arrived slightly damaged.,2026-06-14 09:38:32
+REV-00297,CUST-0027,PROD-0030,4,Solid build quality and performs well.,2026-07-06 09:38:32
+REV-00298,CUST-0091,PROD-0015,5,Fast shipping and amazing product. Highly recommend!,2026-06-11 09:38:32
+REV-00299,CUST-0020,PROD-0021,4,"Good quality product, reasonable price.",2026-06-14 09:38:32
+REV-00300,CUST-0026,PROD-0015,5,Exceptional quality! Exactly what I was looking for.,2026-06-30 09:38:32

@@ -1,0 +1,6 @@
+{
+  "python.analysis.extraPaths": [
+    "${workspaceFolder}",
+    "C:\\Users\\Neha\\ecommerce-platform\\.venv_spark\\Lib\\site-packages"
+  ]
+}
